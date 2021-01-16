@@ -12,17 +12,12 @@ const Navbar = () => {
 					</li>
 					<li>
 						<a href='#mission' className='anchor'>
-							Mission
-						</a>
-					</li>
-					<li>
-						<a href='#process' className='anchor'>
-							Process
+							Our Mission
 						</a>
 					</li>
 					<li>
 						<a href='#our_team' className='anchor'>
-							Our Team
+							Jokesters
 						</a>
 					</li>
 				</ul>

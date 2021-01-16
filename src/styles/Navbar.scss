@@ -40,3 +40,11 @@ ul {
 	align-items: center;
 	max-width: 900px;
 }
+
+@media screen and (max-width: 499px) {
+	ul a {
+		font-size: 0.9rem;
+		border-bottom: 1px double black;
+		border-right: 1px double black;
+	}
+}
