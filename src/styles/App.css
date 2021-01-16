@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--text-blue: #1e3264;
+}
+
+.App {
+	background: url('../images/group-laugh.jpg');
+	height: 100vh;
+	width: 100vw;
+	z-index: -100;
+	background-attachment: fixed;
+}
+
+body {
+	width: 80%;
+	height: 50%;
+	max-width: 1200px;
+}
