@@ -5,7 +5,7 @@ import logo from '../images/smiley.png';
 const Navbar = () => {
 	return (
 		<nav>
-			<div className='navbar'>
+			<div className='navbar-container'>
 				<ul className='nav_list'>
 					<li>
 						<img src={logo} alt='smiley face logo' className='logo' />

@@ -1,0 +1,51 @@
+.mission-area {
+	display: flex;
+	justify-content: center;
+}
+
+.center-container {
+	width: 90%;
+	max-width: 1000px;
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.mission-div img,
+.process-div img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+.mission-div,
+.process-div {
+	display: flex;
+	align-items: center;
+}
+
+.mission-statement p,
+.process-statement p {
+	padding: 0 15px;
+}
+
+@media screen and (max-width: 499px) {
+	.mission-div img,
+	.process-div img {
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		border-radius: 15px;
+	}
+
+	.mission-div {
+		flex-direction: column;
+	}
+
+	.process-div {
+		flex-direction: column-reverse;
+		margin-top: 1.5rem;
+		padding-top: 1rem;
+		border-top: 1px solid black;
+	}
+}
