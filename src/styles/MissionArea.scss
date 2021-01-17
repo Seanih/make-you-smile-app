@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
 .mission-area {
 	display: flex;
 	justify-content: center;
@@ -22,11 +26,26 @@
 .process-div {
 	display: flex;
 	align-items: center;
+	padding: 2rem 0;
+	border-bottom: 5px double var(--text-blue);
 }
 
 .mission-statement p,
 .process-statement p {
 	padding: 0 15px;
+	font-family: 'Comic Neue', cursive;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.center-container h2 {
+	font-family: 'Yusei Magic', sans-serif;
+	margin-bottom: 1rem;
+}
+
+.span-text {
+	font-family: 'Sofia', cursive;
+	font-size: 1.7rem;
 }
 
 @media screen and (max-width: 499px) {
@@ -47,5 +66,10 @@
 		margin-top: 1.5rem;
 		padding-top: 1rem;
 		border-top: 1px solid black;
+	}
+
+	.mission-div,
+	.process-div {
+		border-bottom: none;
 	}
 }

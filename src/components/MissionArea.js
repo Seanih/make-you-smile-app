@@ -11,9 +11,10 @@ const MissionArea = () => {
 					<div className='mission-statement'>
 						<h2>Our Mission</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-							veritatis molestias recusandae molestiae cupiditate delectus.
-							Molestias esse possimus tempora nobis?
+							Let's face it, this year hasn't been the best for a lot of people.
+							In a time when there is so much to be sad about, we figured we
+							would fight this dark cloud with the most powerful weapon there is
+							- <span className='span-text'>a SMILE</span>
 						</p>
 					</div>
 					<img src={huddlePic} alt='huddle' />
@@ -23,9 +24,12 @@ const MissionArea = () => {
 					<div className='process-statement'>
 						<h2>The Process</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-							hic impedit ipsa quia sit mollitia asperiores iusto odio tempore
-							nesciunt.
+							Our team of world-class writers has come up with a brilliant
+							formula to produce some of the{' '}
+							<span className='span-text'>best</span> content that is
+							<span className='span-text'> 100% guaranteed</span> to bring a
+							smile to your face...at some point 😅: they throw everything at
+							the wall to see what bounces!
 						</p>
 					</div>
 				</div>

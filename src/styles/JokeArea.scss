@@ -11,8 +11,11 @@
 
 .joke-box {
 	background: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 75%;
-	height: 45%;
+	height: 50%;
 	border-radius: 25px;
 	font-family: 'Yusei Magic', sans-serif;
 	padding: 2%;
@@ -25,10 +28,16 @@
 .joke-button {
 	margin-top: 25px;
 	padding: 15px;
+	width: 35%;
+	align-self: center;
 	color: white;
 	font-family: 'Yusei Magic', sans-serif;
 	background-color: var(--text-blue);
 	border-radius: 999px;
+}
+
+.joke-button:focus {
+	outline: none;
 }
 
 //!			Arrow Styles
@@ -103,5 +112,15 @@
 		-ms-transform: translateY(-15px);
 		-webkit-transform: translateY(-15px);
 		transform: translateY(-15px);
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.joke-box {
+		display: block;
+	}
+
+	.joke-button {
+		width: 60%;
 	}
 }

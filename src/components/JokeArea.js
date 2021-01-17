@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../styles/JokeArea.scss';
 import axios from 'axios';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
@@ -8,8 +8,6 @@ const JokeArea = () => {
 	const [showJoke, setShowJoke] = useState(false);
 	const [joke, setJoke] = useState('');
 	const [loading, setLoading] = useState(false);
-
-	useEffect(() => {});
 
 	const fetchJoke = () => {
 		setLoading(true);

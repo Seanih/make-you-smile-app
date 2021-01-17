@@ -34,11 +34,11 @@ ul {
 }
 
 .nav_list {
-	width: 85%;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	max-width: 900px;
+	max-width: 1400px;
 	justify-self: center;
 	padding: 0;
 	margin: 0;
@@ -49,6 +49,7 @@ ul {
 		font-size: 0.9rem;
 		border-bottom: 1px double black;
 		border-right: 1px double black;
+		border-radius: 5px;
 	}
 
 	ul {
