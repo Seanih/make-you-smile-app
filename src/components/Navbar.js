@@ -11,12 +11,12 @@ const Navbar = () => {
 						<img src={logo} alt='smiley face logo' className='logo' />
 					</li>
 					<li>
-						<a href='#mission' className='anchor'>
+						<a href='#our-mission' className='anchor'>
 							Our Mission
 						</a>
 					</li>
 					<li>
-						<a href='#our_team' className='anchor'>
+						<a href='#jokesters' className='anchor'>
 							Jokesters
 						</a>
 					</li>

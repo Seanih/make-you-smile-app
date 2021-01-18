@@ -5,16 +5,16 @@ import brainstormPic from '../images/brainstormPic.jpg';
 
 const MissionArea = () => {
 	return (
-		<div className='mission-area'>
+		<div id='our-mission' className='mission-area'>
 			<div className='center-container'>
 				<div className='mission-div'>
 					<div className='mission-statement'>
 						<h2>Our Mission</h2>
 						<p>
-							Let's face it, this year hasn't been the best for a lot of people.
-							In a time when there is so much to be sad about, we figured we
-							would fight this dark cloud with the most powerful weapon there is
-							- <span className='span-text'>a SMILE</span>
+							Let's face it, this last year hasn't been the best for a lot of
+							people. In a time when there is so much to be sad about, we
+							figured we would fight this dark cloud with the most powerful
+							weapon there is - <span className='span-text'>a SMILE</span>
 						</p>
 					</div>
 					<img src={huddlePic} alt='huddle' />
