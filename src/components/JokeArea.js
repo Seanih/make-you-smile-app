@@ -27,12 +27,12 @@ const JokeArea = () => {
 	};
 
 	return (
-		<main className='body-container'>
+		<main id='joke-area' className='body-container'>
 			<div className='joke-box'>
 				{loading ? (
 					<Loader type='ThreeDots' color='#00BFFF' height={100} width={100} />
 				) : showJoke ? (
-					<h3>{joke}🤣</h3>
+					<h2>{joke}🤣</h2>
 				) : (
 					<h1>
 						Have you smiled or laughed today yet? Well 🤔... What are you
