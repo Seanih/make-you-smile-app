@@ -11,9 +11,6 @@
 
 .joke-box {
 	background: whitesmoke;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	width: 75%;
 	height: 50%;
 	border-radius: 25px;
@@ -37,6 +34,10 @@
 	border-radius: 999px;
 }
 
+.joke-button:hover {
+	cursor: pointer;
+}
+
 .joke-button:focus {
 	outline: none;
 }
@@ -48,6 +49,10 @@
 	background-color: #daedf3;
 	border: 5px double black;
 	border-radius: 10px;
+}
+
+.downArrow.bounce:hover {
+	cursor: pointer;
 }
 
 .bounce {
@@ -117,10 +122,6 @@
 }
 
 @media screen and (max-width: 800px) {
-	.joke-box {
-		display: block;
-	}
-
 	.joke-button {
 		width: 65%;
 	}
