@@ -14,13 +14,11 @@ function App() {
 				<Navbar />
 			</header>
 			<JokeArea />
-			<body>
-				<InfoSection>
-					<MissionArea />
-					<JokestersArea />
-					<Footer />
-				</InfoSection>
-			</body>
+			<InfoSection>
+				<MissionArea />
+				<JokestersArea />
+				<Footer />
+			</InfoSection>
 		</div>
 	);
 }
