@@ -8,6 +8,8 @@
 	background-color: #daedf3;
 	width: 100%;
 	position: fixed;
+	left: 50%;
+    transform: translateX(-50%);
 	z-index: 100;
 }
 
@@ -19,7 +21,7 @@
 ul {
 	list-style-type: none;
 	a {
-		font-family: 'Hachi Maru Pop', cursive;
+		font-family: 'Hachi Maru Pop', 'Trebuchet MS', Helvetica, sans-serif;
 		color: var(--text-blue);
 		text-decoration: none;
 		padding: 6px;
@@ -39,7 +41,6 @@ ul {
 	justify-content: space-around;
 	align-items: center;
 	max-width: 1400px;
-	justify-self: center;
 	padding: 0;
 	margin: 0;
 }

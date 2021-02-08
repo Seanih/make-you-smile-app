@@ -10,9 +10,7 @@ import InfoSection from './components/InfoSection';
 function App() {
 	return (
 		<div className='App'>
-			<header>
-				<Navbar />
-			</header>
+			<Navbar />
 			<JokeArea />
 			<InfoSection>
 				<MissionArea />
